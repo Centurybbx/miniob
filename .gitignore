@@ -1,19 +1,25 @@
+# third party
+.deps
 ./deps/3rd
 ./deps/libevent
 ./deps/googletest
 ./deps/jsoncpp
 ./deps/benchmark
+
+# ide related
 .vscode
-!.vscode/tasks.json
-!.vscode/launch.json
-./docs/doxy/
+.idea
+
+# build
 build/*
 build_*
 cmake-build-*/*
 build
+
+# misc
+./docs/doxy/
 .cache/*
 .DS_Store
-.idea
 .ccls-cache
 compile_commands.json
 ./.name
